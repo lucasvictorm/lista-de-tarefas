@@ -12,7 +12,7 @@ const createTask = async (task) => {
     
     const dateUTC = new Date(Date.now()).toUTCString();
     
-    const [createdTask] = await connection.execute('INSERT INTO tasks (title, status, created_at) VALUES (?, ?, ?)', [title, 'Pendente', dateUTC])
+    const [createdTask] = await connection.execute('INSERT INTO tasks (title, status, created_at) VALUES (?, ?, ?)', [title, 'pendente', dateUTC])
 
     return createdTask
 }
