@@ -1,2 +1,2 @@
 # lista-de-tarefas
- Lista de tarefas fullstack
+ Lista de tarefas fullstack feita para aprendizado
